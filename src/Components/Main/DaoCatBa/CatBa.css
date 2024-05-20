@@ -134,6 +134,9 @@
   .card-text{
     border-radius: 10px;
   }
-  a{
-    text-decoration-line: none;
+  .fw-light{
+    color: white;
+  }
+  .Direc2{
+    color: white;
   }
