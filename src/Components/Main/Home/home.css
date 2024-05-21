@@ -42,6 +42,7 @@
 .groupList {
   display: flex;
   flex-direction: column;
+  border-style: none;
 }
 .card-img-top {
   height: 200px;
@@ -62,7 +63,11 @@
   justify-content: center;
   align-items: center;
 }
-h4 {
+.bay-name {
   font-family: sans-serif;
-  font-weight: 500;
+  margin: 10px 0;
+  font-weight: 550;
+}
+.groupList .list-group-item {
+  border: none;
 }

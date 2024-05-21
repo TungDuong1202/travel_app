@@ -14,7 +14,7 @@ const LanHa = () => {
     <>
       <div className="page-LanHa">
         <div className="Khung-GioiThieu">
-          <section className="py-5 text-center container khung-Text">
+          <section className="py-5 text-center container khung-Text Gioithieu">
             <div className="Tieu-De">
               <h1 className="Text-Tieude">
                 Bạn lựa chọn du thuyền Hạ Long nào?

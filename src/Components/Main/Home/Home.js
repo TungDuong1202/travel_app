@@ -11,6 +11,9 @@ import { GiBigWave } from "react-icons/gi";
 import img1 from "./home_images/du_thuyen.jpg";
 import img2 from "./home_images/anh2.jpg";
 import img3 from "./home_images/anh2.webp";
+import img4 from "./home_images/halong.jpg";
+import img5 from "./home_images/lanha.jpg";
+import img6 from "./home_images/catba.jpg";
 const Home = () => {
   return (
     <div>
@@ -59,7 +62,7 @@ const Home = () => {
                     </li>
                     <button
                       type="button"
-                      className="btn btn-primary btn-sm fw-bold"
+                      className="btn btn-primary btn-sm fw-bold rounded-pill"
                     >
                       Đặt ngay
                     </button>
@@ -91,7 +94,7 @@ const Home = () => {
                     </li>
                     <button
                       type="button"
-                      className="btn btn-primary btn-sm fw-bold"
+                      className="btn btn-primary btn-sm fw-bold rounded-pill"
                     >
                       Đặt ngay
                     </button>
@@ -123,7 +126,7 @@ const Home = () => {
                     </li>
                     <button
                       type="button"
-                      className="btn btn-primary btn-sm fw-bold"
+                      className="btn btn-primary btn-sm fw-bold rounded-pill"
                     >
                       Đặt ngay
                     </button>
@@ -139,7 +142,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <section className="jumbotron text-center">
+      <section className="jumbotronn text-center">
         <div className="container">
           <h1 className="jumbotron-heading">Địa điểm nổi bật</h1>
           <p className="lead text-muted">
@@ -154,14 +157,14 @@ const Home = () => {
             <div className="col">
               <Link to="/halong" className="nav-link">
                 <div className="card shadow-sm">
-                  <img src={img1} className="card-img-top" alt="" />
+                  <img src={img4} className="card-img-top" alt="" />
                   <div className="card-body place">
                     <div className="card-text">
-                      <h4>Vịnh Hạ Long</h4>
+                      <h4 className="bay-name">Vịnh Hạ Long</h4>
                     </div>
                     <button
                       type="button"
-                      className="btn btn-primary btn-sm fw-bold"
+                      className="btn btn-primary btn-sm fw-bold rounded-pill"
                     >
                       Xem ngay
                     </button>
@@ -172,14 +175,14 @@ const Home = () => {
             <div className="col">
               <Link to="/lanha" className="nav-link">
                 <div className="card shadow-sm">
-                  <img src={img2} className="card-img-top" alt="" />
+                  <img src={img5} className="card-img-top" alt="" />
                   <div className="card-body place">
                     <div className="card-text">
-                      <h4>Vịnh Lan Hạ</h4>
+                      <h4 className="bay-name">Vịnh Lan Hạ</h4>
                     </div>
                     <button
                       type="button"
-                      className="btn btn-primary btn-sm fw-bold"
+                      className="btn btn-primary btn-sm fw-bold rounded-pill"
                     >
                       Xem ngay
                     </button>
@@ -190,14 +193,14 @@ const Home = () => {
             <div className="col">
               <Link to="/catba" className="nav-link">
                 <div className="card shadow-sm">
-                  <img src={img3} className="card-img-top" alt="" />
+                  <img src={img6} className="card-img-top" alt="" />
                   <div className="card-body place">
                     <div className="card-text">
-                      <h4>Đảo Cát Bà</h4>
+                      <h4 className="bay-name">Đảo Cát Bà</h4>
                     </div>
                     <button
                       type="button"
-                      className="btn btn-primary btn-sm fw-bold"
+                      className="btn btn-primary btn-sm fw-bold rounded-pill"
                     >
                       Xem ngay
                     </button>
