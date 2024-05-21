@@ -22,7 +22,7 @@ const Home = () => {
           </div>
         </section>
       </div>
-      <section className="jumbotron text-center">
+      <section className="jumbotronn text-center">
         <div className="container">
           <h1 className="jumbotron-heading">Du thuyền mới và phổ biến nhất</h1>
           <p className="lead text-muted">
