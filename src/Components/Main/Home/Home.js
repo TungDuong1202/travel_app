@@ -42,7 +42,7 @@ const Home = () => {
                   <p className="card-text">
                     <b>Du thuyền Heritage</b>
                   </p>
-                  <ul className="list-group list-group-horizontal">
+                  <ul className="list-group groupList">
                     <li className="list-group-item">
                       <GiBigWave /> Hạ thủy 2019
                     </li>
@@ -74,7 +74,7 @@ const Home = () => {
                   <p className="card-text">
                     <b>Du thuyền Milalux</b>
                   </p>
-                  <ul className="list-group list-group-horizontal">
+                  <ul className="list-group groupList">
                     <li className="list-group-item">
                       <GiBigWave /> Hạ thủy 2019
                     </li>
@@ -106,7 +106,7 @@ const Home = () => {
                   <p className="card-text">
                     <b>Du thuyền Ambassador </b>
                   </p>
-                  <ul className="list-group list-group-horizontal">
+                  <ul className="list-group groupList">
                     <li className="list-group-item">
                       <GiBigWave /> Hạ thủy 2019
                     </li>
