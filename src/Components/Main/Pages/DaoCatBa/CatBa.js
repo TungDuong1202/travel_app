@@ -3,31 +3,34 @@ import "./CatBa.css";
 import { FaShip } from "react-icons/fa6";
 import { FaAnchor } from "react-icons/fa6";
 import { MdBathroom } from "react-icons/md";
-const CatBa = () => {
+import a1 from "./Ảnh/a1.jpg";
+import a2 from "./Ảnh/a2.jpg";
+import a3 from "./Ảnh/a3.jpg";
+import a4 from "./Ảnh/a4.jpg";
+import a5 from "./Ảnh/a5.jpg";
+import a6 from "./Ảnh/a6.jpg";
+const DaoCatBa = () => {
   return (
     <div>
       <section class="py-5 text-center container">
-        <div class="row py-lg-5">
-          <div class="col-lg-6 col-md-8 mx-auto">
+        <div class="row khunganhheader d-flex flex-column align-items-center">
+          
             <h1 class="fw-light">Thông tin về du thuyền Đảo Cát Bà</h1>
             <p class="Direc2">
               Tận hưởng kỳ nghỉ đáng nhớ tại Cát Bà - hòn đảo lớn nhất tại vịnh
               Hạ Long với hàng loạt trải nghiệm thú vị.
             </p>
-          </div>
+          
         </div>
       </section>
 
-      <div class="album py-5 bg-body-tertiary">
+
+      <div class="album bg-body-tertiar khungbody">
         <div class="container">
           <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
             <div class="col">
               <div class="card shadow-sm">
-                <img
-                  class="anhminhhoa"
-                  src="https://owa.bestprice.vn/images/articles/uploads/top-5-du-thuyen-cat-ba-noi-tieng-nhat-5d5b5e317c7d3.jpg"
-                  alt=""
-                />
+                <img class="anhminhhoa" src={a1} alt="Ảnh lỗi" />
                 <div class="card-body">
                   <h3>Du thuyền Hiritage</h3>
                   <ul class="card-text">
@@ -38,7 +41,7 @@ const CatBa = () => {
                       <FaAnchor /> Vỏ tàu Kim loại
                     </li>
                     <li>
-                      <MdBathroom /> Số lượng: 20 phòng
+                      <MdBathroom /> Số lượng: 23 phòng
                     </li>
                   </ul>
                   <div class="d-flex justify-content-between align-items-center">
@@ -51,7 +54,7 @@ const CatBa = () => {
                       </button>
                     </div>
                     <small class="text-body-secondary">
-                      5,300,000đ / khách
+                      4,300,000đ / khách
                     </small>
                   </div>
                 </div>
@@ -59,22 +62,18 @@ const CatBa = () => {
             </div>
             <div class="col">
               <div class="card shadow-sm">
-                <img
-                  class="anhminhhoa"
-                  src="https://owa.bestprice.vn/images/articles/uploads/top-5-du-thuyen-cat-ba-noi-tieng-nhat-5d5a5c80c7c94.jpg"
-                  alt=""
-                />
+                <img class="anhminhhoa" src={a2} alt="" />
                 <div class="card-body">
                   <h3>Du thuyền Orchid</h3>
                   <ul class="card-text">
                     <li>
-                      <FaShip /> Hạ thủy 2019
+                      <FaShip /> Hạ thủy 2022
                     </li>
                     <li>
                       <FaAnchor /> Vỏ tàu Kim loại
                     </li>
                     <li>
-                      <MdBathroom /> Số lượng: 20 phòng
+                      <MdBathroom /> Số lượng: 22 phòng
                     </li>
                   </ul>
                   <div class="d-flex justify-content-between align-items-center">
@@ -87,7 +86,7 @@ const CatBa = () => {
                       </button>
                     </div>
                     <small class="text-body-secondary">
-                      5,300,000đ / khách
+                      6,300,000đ / khách
                     </small>
                   </div>
                 </div>
@@ -95,22 +94,18 @@ const CatBa = () => {
             </div>
             <div class="col">
               <div class="card shadow-sm">
-                <img
-                  class="anhminhhoa"
-                  src="https://owa.bestprice.vn/images/articles/uploads/top-5-du-thuyen-cat-ba-noi-tieng-nhat-5d5b5d636e236.jpg"
-                  alt=""
-                />
+                <img class="anhminhhoa" src={a3} alt="" />
                 <div class="card-body">
                   <h3>Du thuyền Azalea</h3>
                   <ul class="card-text">
                     <li>
-                      <FaShip /> Hạ thủy 2019
+                      <FaShip /> Hạ thủy 2017
                     </li>
                     <li>
                       <FaAnchor /> Vỏ tàu Kim loại
                     </li>
                     <li>
-                      <MdBathroom /> Số lượng: 20 phòng
+                      <MdBathroom /> Số lượng: 26 phòng
                     </li>
                   </ul>
                   <div class="d-flex justify-content-between align-items-center">
@@ -123,7 +118,7 @@ const CatBa = () => {
                       </button>
                     </div>
                     <small class="text-body-secondary">
-                      5,300,000đ / khách
+                      4,300,000đ / khách
                     </small>
                   </div>
                 </div>
@@ -131,22 +126,18 @@ const CatBa = () => {
             </div>
             <div class="col">
               <div class="card shadow-sm">
-                <img
-                  class="anhminhhoa"
-                  src="https://owa.bestprice.vn/images/articles/uploads/top-5-du-thuyen-cat-ba-noi-tieng-nhat-5d5a6148cbb4b.jpg"
-                  alt=""
-                />
+                <img class="anhminhhoa" src={a4} alt="" />
                 <div class="card-body">
                   <h3>Du thuyền Mon Cheri</h3>
                   <ul class="card-text">
                     <li>
-                      <FaShip /> Hạ thủy 2019
+                      <FaShip /> Hạ thủy 2024
                     </li>
                     <li>
                       <FaAnchor /> Vỏ tàu Kim loại
                     </li>
                     <li>
-                      <MdBathroom /> Số lượng: 20 phòng
+                      <MdBathroom /> Số lượng: 24 phòng
                     </li>
                   </ul>
                   <div class="d-flex justify-content-between align-items-center">
@@ -159,7 +150,7 @@ const CatBa = () => {
                       </button>
                     </div>
                     <small class="text-body-secondary">
-                      5,300,000đ / khách
+                      5,500,000đ / khách
                     </small>
                   </div>
                 </div>
@@ -167,11 +158,7 @@ const CatBa = () => {
             </div>
             <div class="col">
               <div class="card shadow-sm">
-                <img
-                  class="anhminhhoa"
-                  src="https://owa.bestprice.vn/images/articles/uploads/top-5-du-thuyen-cat-ba-noi-tieng-nhat-5d5a72f08a2a0.jpg"
-                  alt=""
-                />
+                <img class="anhminhhoa" src={a5} alt="" />
                 <div class="card-body">
                   <h3>Du thuyền Era</h3>
                   <ul class="card-text">
@@ -203,11 +190,7 @@ const CatBa = () => {
             </div>
             <div class="col">
               <div class="card shadow-sm">
-                <img
-                  class="anhminhhoa"
-                  src="https://owa.bestprice.vn/images/articles/uploads/top-5-du-thuyen-cat-ba-noi-tieng-nhat-5d5b5e317c7d3.jpg"
-                  alt=""
-                />
+                <img class="anhminhhoa" src={a6} alt="" />
                 <div class="card-body">
                   <h3>Du thuyền La Regina</h3>
                   <ul class="card-text">
@@ -239,9 +222,8 @@ const CatBa = () => {
             </div>
           </div>
         </div>
-        /
       </div>
     </div>
   );
 };
-export default CatBa;
+export default DaoCatBa;
