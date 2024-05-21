@@ -3,6 +3,7 @@ import { MdDirectionsBoatFilled } from "react-icons/md";
 import { FaBars } from "react-icons/fa6";
 import { IoIosCloseCircle } from "react-icons/io";
 import "./navbar.css";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [active, setActive] = useState("navBar");
@@ -16,26 +17,26 @@ const Navbar = () => {
     <section className="navBarSection">
       <header className="header">
         <div className="logoDiv">
-          <a href="#" className="logo">
+          <Link to="/" className="logo">
             <MdDirectionsBoatFilled className="icon" />
             <h2>Travel</h2>
-          </a>
+          </Link>
         </div>
 
         <div className={active}>
           <ul className="navLists">
             <li className="navItem">
-              <a href="#" className="navLink">
+              <Link to="/" className="navLink">
                 Home
-              </a>
+              </Link>
             </li>
             <li className="navItem">
-              <a href="#" className="navLink">
+              <Link to="/packages" className="navLink">
                 Packages
-              </a>
+              </Link>
             </li>
             <button className="btnn">
-              <a href="#">Liên hệ Group3</a>
+              <Link to="/">Liên hệ Group3</Link>
             </button>
           </ul>
           <div onClick={closeNavBar} className="closeNavBar">

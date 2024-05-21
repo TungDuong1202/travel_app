@@ -1,11 +1,11 @@
 import React from "react";
 import "./halong.css";
-import HaLong6 from "../../img/anh1.webp";
-import HaLong1 from "../../img/anh2.jpg";
-import HaLong2 from "../../img/anh2.webp";
-import HaLong3 from "../../img/anh3.webp";
-import HaLong4 from "../../img/anh4.webp";
-import HaLong5 from "../../img/anh5.webp";
+import HaLong6 from "./img_HaLong/anh1.webp";
+import HaLong1 from "./img_HaLong/anh2.jpg";
+import HaLong2 from "./img_HaLong/anh2.webp";
+import HaLong3 from "./img_HaLong/anh3.webp";
+import HaLong4 from "./img_HaLong/anh4.webp";
+import HaLong5 from "./img_HaLong/anh5.webp";
 import { GiBigWave } from "react-icons/gi";
 import { IoMdBoat } from "react-icons/io";
 import { MdOutlineBedroomParent } from "react-icons/md";

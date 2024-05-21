@@ -1,7 +1,68 @@
-.home {
+.headerDiv {
+  height: 500px;
+  width: 100%;
+  background-image: url("./home_images/header_bg.jpg");
+  background-position: center;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: yellow;
+  color: white;
+}
+.textHeader {
+  background-color: rgb(33, 33, 33, 0.5);
   width: 80%;
+  padding: 50px 0;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+.text {
+  padding: 10px;
+}
+
+.jumbotron {
+  padding: 50px;
+  margin: 0;
+}
+.jumbotron-heading {
+  font-weight: 550;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 768px) {
+  .textHeader {
+    width: 70%;
+  }
+  .text {
+    font-size: small;
+  }
+  .texth1 {
+    font-size: 20px;
+  }
+}
+.list-group-horizontal {
+  display: flex;
+  flex-direction: column;
+}
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+.allLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+}
+.link {
+  text-decoration: none;
+}
+.place {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h4 {
+  font-family: sans-serif;
+  font-weight: 500;
 }
