@@ -11,7 +11,7 @@
   background-size: cover;
 }
 
-.khung-Text {
+.Gioithieu {
   width: 1012px;
   background-color: rgba(17, 17, 17, 0.8);
   box-shadow: 2px 4px 8px rgb(68, 67, 67);
@@ -77,4 +77,7 @@
 .btn-Datmua {
   border: 0px solid;
   background-color: rgb(42, 208, 230);
+}
+.btn-Xemthem {
+  margin-top: 20px;
 }
